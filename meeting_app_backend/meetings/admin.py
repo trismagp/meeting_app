@@ -1,3 +1,8 @@
+# meetings/admin.py
 from django.contrib import admin
+from .models import Meeting, Subject, Owner, Comment
 
-# Register your models here.
+admin.site.register(Meeting)
+admin.site.register(Subject)
+admin.site.register(Owner)
+admin.site.register(Comment)
